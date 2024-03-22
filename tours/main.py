@@ -1,6 +1,6 @@
 import streamlit as st
-import edge_tts
-import subprocess
+#import edge_tts
+#import subprocess
 from scripts import *
 
 
