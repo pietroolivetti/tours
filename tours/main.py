@@ -1,7 +1,5 @@
 import streamlit as st
 import edge_tts
-import io
-import re
 import subprocess
 from scripts import *
 
