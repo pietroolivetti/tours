@@ -34,25 +34,25 @@ if selected_lang == 'Português':
         st.write(pt3)
        #cmd = ["edge-tts", "--voice", "pt-BR-AntonioNeural", "--text", pt3, "--write-media", f"pt3.mp3"]
         ##subprocess.run(cmd)
-        st.audio("data/pt3.mp3")
+        st.audio("tours/pt3.mp3")
         
     with tab4:
         st.write(pt4)
        #cmd = ["edge-tts", "--voice", "pt-BR-AntonioNeural", "--text", pt4, "--write-media", f"pt4.mp3"]
         ##subprocess.run(cmd)
-        st.audio("data/pt4.mp3")
+        st.audio("tours/pt4.mp3")
         
     with tab5:
         st.write(pt5)
        #cmd = ["edge-tts", "--voice", "pt-BR-AntonioNeural", "--text", pt5, "--write-media", f"pt5.mp3"]
         ##subprocess.run(cmd)
-        st.audio("data/pt5.mp3")
+        st.audio("tours/pt5.mp3")
         
     with tab6:
         st.write(pt6)
        #cmd = ["edge-tts", "--voice", "pt-BR-AntonioNeural", "--text", pt6, "--write-media", f"pt6.mp3"]
         ##subprocess.run(cmd)
-        st.audio("data/pt6.mp3")
+        st.audio("tours/pt6.mp3")
 
 
 if selected_lang == 'Español':
@@ -61,37 +61,37 @@ if selected_lang == 'Español':
         st.write(es1)
        #cmd = ["edge-tts", "--voice", "es-AR-ElenaNeural", "--text", es1, "--write-media", f"es1.mp3"]
         ##subprocess.run(cmd)
-        st.audio("data/es1.mp3")
+        st.audio("tours/es1.mp3")
 
     with tab2:
         st.write(es2)
        #cmd = ["edge-tts", "--voice", "es-AR-ElenaNeural", "--text", es2, "--write-media", f"es2.mp3"]
         ##subprocess.run(cmd)
-        st.audio("data/es2.mp3")
+        st.audio("tours/es2.mp3")
 
     with tab3:
         st.write(es3)
        #cmd = ["edge-tts", "--voice", "es-AR-ElenaNeural", "--text", es3, "--write-media", f"es3.mp3"]
         ##subprocess.run(cmd)
-        st.audio("data/es3.mp3")
+        st.audio("tours/es3.mp3")
         
     with tab4:
         st.write(es4)
        #cmd = ["edge-tts", "--voice", "es-AR-ElenaNeural", "--text", es4, "--write-media", f"es4.mp3"]
         ##subprocess.run(cmd)
-        st.audio("data/es4.mp3")
+        st.audio("tours/es4.mp3")
         
     with tab5:
         st.write(es5)
        #cmd = ["edge-tts", "--voice", "es-AR-ElenaNeural", "--text", es5, "--write-media", f"es5.mp3"]
         ##subprocess.run(cmd)
-        st.audio("data/es5.mp3")
+        st.audio("tours/es5.mp3")
         
     with tab6:
         st.write(es6)
        #cmd = ["edge-tts", "--voice", "es-AR-ElenaNeural", "--text", es6, "--write-media", f"es6.mp3"]
         ##subprocess.run(cmd)
-        st.audio("data/es6.mp3")
+        st.audio("tours/es6.mp3")
 
 if selected_lang == 'Italiano':
 
@@ -99,37 +99,37 @@ if selected_lang == 'Italiano':
         st.write(it1)
        #cmd = ["edge-tts", "--voice", "it-IT-GiuseppeNeural", "--text", it1, "--write-media", f"it1.mp3"]
         #subprocess.run(cmd)
-        st.audio("data/it1.mp3")
+        st.audio("tours/it1.mp3")
 
     with tab2:
         st.write(it2)
        #cmd = ["edge-tts", "--voice", "it-IT-GiuseppeNeural", "--text", it2, "--write-media", f"it2.mp3"]
         #subprocess.run(cmd)
-        st.audio("data/it2.mp3")
+        st.audio("tours/it2.mp3")
 
     with tab3:
         st.write(it3)
        #cmd = ["edge-tts", "--voice", "it-IT-GiuseppeNeural", "--text", it3, "--write-media", f"it3.mp3"]
         #subprocess.run(cmd)
-        st.audio("data/it3.mp3")
+        st.audio("tours/it3.mp3")
 
     with tab4:
         st.write(it4)
        #cmd = ["edge-tts", "--voice", "it-IT-GiuseppeNeural", "--text", it4, "--write-media", f"it4.mp3"]
         #subprocess.run(cmd)
-        st.audio("data/it4.mp3")
+        st.audio("tours/it4.mp3")
 
     with tab5:
         st.write(it5)
        #cmd = ["edge-tts", "--voice", "it-IT-GiuseppeNeural", "--text", it5, "--write-media", f"it5.mp3"]
         #subprocess.run(cmd)
-        st.audio("data/it5.mp3")
+        st.audio("tours/it5.mp3")
 
     with tab6:
         st.write(it6)
        #cmd = ["edge-tts", "--voice", "it-IT-GiuseppeNeural", "--text", it6, "--write-media", f"it6.mp3"]
         #subprocess.run(cmd)
-        st.audio("data/it6.mp3")
+        st.audio("tours/it6.mp3")
 
 if selected_lang == 'Français':
 
@@ -137,37 +137,37 @@ if selected_lang == 'Français':
         st.write(fr1)
        #cmd = ["edge-tts", "--voice", "fr-FR-HenriNeural", "--text", fr1, "--write-media", f"fr1.mp3"]
         #subprocess.run(cmd)
-        st.audio("data/fr1.mp3")
+        st.audio("tours/fr1.mp3")
 
     with tab2:
         st.write(fr2)
        #cmd = ["edge-tts", "--voice", "fr-FR-HenriNeural", "--text", fr2, "--write-media", f"fr2.mp3"]
         #subprocess.run(cmd)
-        st.audio("data/fr2.mp3")
+        st.audio("tours/fr2.mp3")
 
     with tab3:
         st.write(fr3)
        #cmd = ["edge-tts", "--voice", "fr-FR-HenriNeural", "--text", fr3, "--write-media", f"fr3.mp3"]
         #subprocess.run(cmd)
-        st.audio("data/fr3.mp3")
+        st.audio("tours/fr3.mp3")
 
     with tab4:
         st.write(fr4)
        #cmd = ["edge-tts", "--voice", "fr-FR-HenriNeural", "--text", fr4, "--write-media", f"fr4.mp3"]
         #subprocess.run(cmd)
-        st.audio("data/fr4.mp3")
+        st.audio("tours/fr4.mp3")
 
     with tab5:
         st.write(fr5)
        #cmd = ["edge-tts", "--voice", "fr-FR-HenriNeural", "--text", fr5, "--write-media", f"fr5.mp3"]
         #subprocess.run(cmd)
-        st.audio("data/fr5.mp3")
+        st.audio("tours/fr5.mp3")
 
     with tab6:
         st.write(fr6)
        #cmd = ["edge-tts", "--voice", "fr-FR-HenriNeural", "--text", fr6, "--write-media", f"fr6.mp3"]
         #subprocess.run(cmd)
-        st.audio("data/fr6.mp3")
+        st.audio("tours/fr6.mp3")
 
 
 if selected_lang == 'English':
@@ -176,34 +176,34 @@ if selected_lang == 'English':
         st.write(en1)
        #cmd = ["edge-tts", "--voice", "en-US-AriaNeural", "--text", en1, "--write-media", f"en1.mp3"]
         #subprocess.run(cmd)
-        st.audio("data/en1.mp3")
+        st.audio("tours/en1.mp3")
 
     with tab2:
         st.write(en2)
        #cmd = ["edge-tts", "--voice", "en-US-AriaNeural", "--text", en2, "--write-media", f"en2.mp3"]
         #subprocess.run(cmd)
-        st.audio("data/en2.mp3")
+        st.audio("tours/en2.mp3")
 
     with tab3:
         st.write(en3)
        #cmd = ["edge-tts", "--voice", "en-US-AriaNeural", "--text", en3, "--write-media", f"en3.mp3"]
         #subprocess.run(cmd)
-        st.audio("data/en3.mp3")
+        st.audio("tours/en3.mp3")
 
     with tab4:
         st.write(en4)
        #cmd = ["edge-tts", "--voice", "en-US-AriaNeural", "--text", en4, "--write-media", f"en4.mp3"]
         #subprocess.run(cmd)
-        st.audio("data/en4.mp3")
+        st.audio("tours/en4.mp3")
 
     with tab5:
         st.write(en5)
        #cmd = ["edge-tts", "--voice", "en-US-AriaNeural", "--text", en5, "--write-media", f"en5.mp3"]
         #subprocess.run(cmd)
-        st.audio("data/en5.mp3")
+        st.audio("tours/en5.mp3")
 
     with tab6:
         st.write(en6)
        #cmd = ["edge-tts", "--voice", "en-US-AriaNeural", "--text", en6, "--write-media", f"en6.mp3"]
         #subprocess.run(cmd)
-        st.audio("data/en6.mp3")
+        st.audio("tours/en6.mp3")
