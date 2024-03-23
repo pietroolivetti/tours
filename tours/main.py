@@ -22,13 +22,13 @@ if selected_lang == 'Português':
         st.write(pt1)
        #cmd = ["edge-tts", "--voice", "pt-BR-AntonioNeural", "--text", pt1, "--write-media", f"pt1.mp3"]
         ##subprocess.run(cmd)
-        st.audio(f"pt1.mp3")
+        st.audio("pt1.mp3")
 
     with tab2:
         st.write(pt2)
        #cmd = ["edge-tts", "--voice", "pt-BR-AntonioNeural", "--text", pt2, "--write-media", f"pt2.mp3"]
         ##subprocess.run(cmd)
-        st.audio(f"pt2.mp3")
+        st.audio("pt2.mp3")
 
     with tab3:
         st.write(pt3)
