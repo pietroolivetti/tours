@@ -81,63 +81,63 @@ if selected_lang == 'Português':
         with st.expander('Clássica'):
             st.title('Fine White')
             st.write(pt_finewhite)
-            st.audio('pt_finewhite.mp3')
+            st.audio('tours/pt_finewhite.mp3')
 
             st.title('Jockey Club')
             st.write(pt_jockeyclub)
-            st.audio('pt_jockeyclub.mp3')
+            st.audio('tours/pt_jockeyclub.mp3')
             
         with st.expander('Premium'):
             st.title('Fine White')
             st.write(pt_finewhite)
-            st.audio('pt_finewhite.mp3')
+            st.audio('tours/pt_finewhite.mp3')
 
             st.title('LBV 2019')
             st.write(pt_lbv2019)
-            st.audio('pt_lbv2019.mp3')
+            st.audio('tours/pt_lbv2019.mp3')
             
             st.title('Tawny 10 anos')
             st.write(pt_tawny10)
-            st.audio('pt_tawny10.mp3')
+            st.audio('tours/pt_tawny10.mp3')
             
         with st.expander('Exclusive'):
             st.title('Tawny 10 anos')
             st.write(pt_tawny10)
-            st.audio('pt_tawny10.mp3')
+            st.audio('tours/pt_tawny10.mp3')
 
             st.title('Colheita 2008')
             st.write(pt_colheita2008)
-            st.audio('pt_colheita2008.mp3')
+            st.audio('tours/pt_colheita2008.mp3')
             
             st.title('Tawny 20 anos')
             st.write(pt_tawny20)
-            st.audio('pt_tawny20.mp3')
+            st.audio('tours/pt_tawny20.mp3')
             
         with st.expander('Tawny Experience'):
             st.title('Tawny')
             st.write(pt_finewhite)
-            st.audio('pt_finewhite.mp3')
+            st.audio('tours/pt_finewhite.mp3')
 
             st.title('Vintage 2012')
             st.write(pt_vintage2012)
-            st.audio('pt_vintage2012.mp3')
+            st.audio('tours/pt_vintage2012.mp3')
             
             st.title('Colheita 2008')
             st.write(pt_colheita2008)
-            st.audio('pt_colheita2008.mp3')
+            st.audio('tours/pt_colheita2008.mp3')
             
         with st.expander('Chocolate and Cheese'):
             st.title('LBV 2019')
             st.write(pt_lbv2019)
-            st.audio('pt_lbv2019.mp3')
+            st.audio('tours/pt_lbv2019.mp3')
 
             st.title('Vintage 2012')
             st.write(pt_vintage2012)
-            st.audio('pt_vintage2012.mp3')
+            st.audio('tours/pt_vintage2012.mp3')
             
             st.title('Colheita 2002')
             st.write(pt_colheita2002)
-            st.audio('pt_colheita2002.mp3')
+            st.audio('tours/pt_colheita2002.mp3')
             
             
 if selected_lang == 'Español':
@@ -146,99 +146,99 @@ if selected_lang == 'Español':
         st.write(es1)
        #cmd = ["edge-tts", "--voice", "es-AR-ElenaNeural", "--text", es1, "--write-media", "es1.mp3"]
         ##subprocess.run(cmd)
-        st.audio("es1.mp3")
+        st.audio("tours/es1.mp3")
 
     with tab2:
         st.write(es2)
        #cmd = ["edge-tts", "--voice", "es-AR-ElenaNeural", "--text", es2, "--write-media", "es2.mp3"]
         ##subprocess.run(cmd)
-        st.audio("es2.mp3")
+        st.audio("tours/es2.mp3")
 
     with tab3:
         st.write(es3)
        #cmd = ["edge-tts", "--voice", "es-AR-ElenaNeural", "--text", es3, "--write-media", "es3.mp3"]
         ##subprocess.run(cmd)
-        st.audio(f"es3.mp3")
+        st.audio("tours/es3.mp3")
         
     with tab4:
         st.write(es4)
        #cmd = ["edge-tts", "--voice", "es-AR-ElenaNeural", "--text", es4, "--write-media", f"es4.mp3"]
         ##subprocess.run(cmd)
-        st.audio("es4.mp3")
+        st.audio("tours/es4.mp3")
         
     with tab5:
         st.write(es5)
        #cmd = ["edge-tts", "--voice", "es-AR-ElenaNeural", "--text", es5, "--write-media", f"es5.mp3"]
         ##subprocess.run(cmd)
-        st.audio("es5.mp3")
+        st.audio("tours/es5.mp3")
         
     with tab6:
         st.write(es6)
        #cmd = ["edge-tts", "--voice", "es-AR-ElenaNeural", "--text", es6, "--write-media", f"es6.mp3"]
         ##subprocess.run(cmd)
-        st.audio("es6.mp3")
+        st.audio("tours/es6.mp3")
         
     with tab7:
         with st.expander('Clássica'):
             st.title('Fine White')
             st.write(es_finewhite)
-            st.audio('es_finewhite.mp3')
+            st.audio('tours/es_finewhite.mp3')
 
             st.title('Jockey Club')
             st.write(es_jockeyclub)
-            st.audio('es_jockeyclub.mp3')
+            st.audio('tours/es_jockeyclub.mp3')
             
         with st.expander('Premium'):
             st.title('Fine White')
             st.write(es_finewhite)
-            st.audio('es_finewhite.mp3')
+            st.audio('tours/es_finewhite.mp3')
 
             st.title('LBV 2019')
             st.write(es_lbv2019)
-            st.audio('es_lbv2019.mp3')
+            st.audio('tours/es_lbv2019.mp3')
             
             st.title('Tawny 10 anos')
             st.write(es_tawny10)
-            st.audio('es_tawny10.mp3')
+            st.audio('tours/es_tawny10.mp3')
             
         with st.expander('Exclusive'):
             st.title('Tawny 10 anos')
             st.write(es_tawny10)
-            st.audio('es_tawny10.mp3')
+            st.audio('tours/es_tawny10.mp3')
 
             st.title('Colheita 2008')
             st.write(es_colheita2008)
-            st.audio('es_colheita2008.mp3')
+            st.audio('tours/es_colheita2008.mp3')
             
             st.title('Tawny 20 anos')
             st.write(es_tawny20)
-            st.audio('es_tawny20.mp3')
+            st.audio('tours/es_tawny20.mp3')
             
         with st.expander('Tawny Experience'):
             st.title('Tawny')
             st.write(es_finewhite)
-            st.audio('es_finewhite.mp3')
+            st.audio('tours/es_finewhite.mp3')
 
             st.title('Vintage 2012')
             st.write(es_vintage2012)
-            st.audio('es_vintage2012.mp3')
+            st.audio('tours/es_vintage2012.mp3')
             
             st.title('Colheita 2008')
             st.write(es_colheita2008)
-            st.audio('es_colheita2008.mp3')
+            st.audio('tours/es_colheita2008.mp3')
             
         with st.expander('Chocolate and Cheese'):
             st.title('LBV 2019')
             st.write(es_lbv2019)
-            st.audio('es_lbv2019.mp3')
+            st.audio('tours/es_lbv2019.mp3')
 
             st.title('Vintage 2012')
             st.write(es_vintage2012)
-            st.audio('es_vintage2012.mp3')
+            st.audio('tours/es_vintage2012.mp3')
             
             st.title('Colheita 2002')
             st.write(es_colheita2002)
-            st.audio('es_colheita2002.mp3')
+            st.audio('tours/es_colheita2002.mp3')
 
 if selected_lang == 'Italiano':
 
