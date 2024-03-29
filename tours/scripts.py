@@ -1,5 +1,15 @@
 #Antes da entrada
-pt1 = "Bem vindos à Burmester. Meu nome é X e serei o seu guia durante os próximos 30 minutos aproximadamente. Na nossa visita falaremos sobre a história do Vinho do Porto e sobre o seu processo de vinificação e envelhecimento. Ao final da visita, passaremos à degustação."
+pt1 = "Bem vindos à Burmester. Meu nome é X e serei o seu guia durante os próximos 30 minutos aproximadamente. Na nossa visita falaremos sobre a história do Vinho do Porto e sobre o seu processo de vinificação e envelhecimento. Fiquem à vontade para fazer perguntas e tirar fotos.  A visita dura ao redor de 30 minutos e quando termina, vamos à degustação. Peço que, por favor, que tenham os bilhetes à mão e que os apresentem a mim na entrada."
+
+pt1_1 = "Bem vindos à Burmester."
+pt1_2 = "Meu nome é X e serei o seu guia durante os próximos 30 minutos aproximadamente."
+pt1_3 = "Na nossa visita falaremos sobre a história do Vinho do Porto e sobre o seu processo de vinificação e envelhecimento."
+pt1_4 = "Fiquem à vontade para fazer perguntas e tirar fotos."
+pt1_5 = "A visita dura ao redor de 30 minutos e quando termina, vamos à degustação."
+pt1_6 = "Peço que, por favor, que tenham os bilhetes à mão e que os apresentem a mim na entrada."
+
+pt1_list = [pt1_1, pt1_2, pt1_3, pt1_4, pt1_5, pt1_6]
+pt1_audios = ['pt1_1', 'pt1_2', 'pt1_3', 'pt1_4', 'pt1_5', 'pt1_6']
 
 #De frente às fotos:
 pt2 = """
@@ -12,12 +22,39 @@ Agora que já sabemos diferenciar o vinho de mesa, vou explicar-lhes como o vinh
 Mas que transformação foi essa? Imaginem-se como mercadores de vinho do porto durante o século 18. Imaginem as dificuldades em transportar esse tipo de mercadoria nesta época. Para deixar o vinho mais resistente, os produtores adicionavam aguardente forte no vinho antes do transporte. Em algum momento perdido na história, um grupo de produtores começou a adicionar aguardente durante a fermentação e assim o vinho torna-se licoroso.   Mas o que tem a ver a fermentação com a transformação do vinho? Para respondermos a essas perguntas temos que considerar o que ocorre durante a fermentação. A fermentação é o processo natural de transformação dos açúcares em álcool, através da ação de microrganismos chamados leveduras. Ao adicionar aguardente as leveduras são eliminadas, tendo como consequência a manutenção do açúcar - por isso o vinho doce, e um aumento do teor alcoólico.  
 """
  
+pt2_1 = "Gostaria de começar a visita perguntando algo a vocês: quando vocês pensam em Vinho do Porto, quais são as características que vêm à mente?"
+
+pt2_2 = "O vinho do porto é um vinho licoroso, o que o torna bastante diferente dos vinhos mais comumente encontrados."
+pt2_3 = "Para vocês entenderem bem a questão, vamos falar das diferenças em termos de teores de açúcar e álcool."
+pt2_4 = "Vinhos de mesa são vinhos que majoritariamente contêm de 12% a 14% de álcool, enquanto que os Vinhos do Porto têm em média 20%."
+pt2_5 = "Em relação ao açúcar residual, os vinhos de mesa normalmente têm menos de 10 gramas por litro, contrastando com a média de 100 gramas de açúcar por litro."
+pt2_6 = "Por serem mais fortes e doces, habitualmente os vinhos do Porto costumam ser tomados com aperitivos ou sobremesa."
+
+pt2_7 = "Agora que já sabemos diferenciar o vinho de mesa, vou explicar-lhes como o vinho do porto tornou-se o vinho licoroso que é hoje, e como isso se mistura com a história das caves Burmester."
+pt2_8 = "Em 1750, dois ingleses, John Nash e Henry Burmester criaram as caves de vinho Burmester aqui em Vila Nova de Gaia."
+pt2_9 = "Nesta época, o vinho do porto era um vinho de mesa, como os vinhos do douro que existem até hoje."
+pt2_10 = "Foi apenas no século 19 que os vinhos ganharam as características que hoje definimos como vinhos licorosos, então posso afirmar sem medo de exagerar que a Burmester participou no processo de transformação do vinho do porto."
+
+pt2_11 = "Mas que transformação foi essa?"
+pt2_12 = "Imaginem-se como mercadores de vinho do porto durante o século 18."
+pt2_13 = "Imaginem as dificuldades em transportar esse tipo de mercadoria nesta época."
+pt2_14 = "Para deixar o vinho mais resistente, os produtores adicionavam aguardente forte no vinho antes do transporte."
+pt2_15 = "Em algum momento perdido na história, um grupo de produtores começou a adicionar aguardente durante a fermentação e assim o vinho torna-se licoroso."
+pt2_16 = "Mas o que tem a ver a fermentação com a transformação do vinho?"
+pt2_17 = "Para respondermos a essas perguntas temos que considerar o que ocorre durante a fermentação."
+pt2_18 = "A fermentação é o processo natural de transformação dos açúcares em álcool, através da ação de microrganismos chamados leveduras."
+pt2_19 = "Ao adicionar aguardente as leveduras são eliminadas, tendo como consequência a manutenção do açúcar - por isso o vinho doce, e um aumento do teor alcoólico."
+
+pt2_list = [pt2_1, pt2_2, pt2_3, pt2_4, pt2_5, pt2_6, pt2_7, pt2_8, pt2_9, pt2_10, pt2_11, pt2_12, pt2_13, pt2_14, pt2_15, pt2_16, pt2_17, pt2_18, pt2_19]
+pt2_audios = ['pt2_1', 'pt2_2', 'pt2_3', 'pt2_4', 'pt2_5', 'pt2_6', 'pt2_7', 'pt2_8', 'pt2_9', 'pt2_10', 'pt2_11', 'pt2_12', 'pt2_13', 'pt2_14', 'pt2_15', 'pt2_16', 'pt2_17', 'pt2_18', 'pt2_19']
+
+
 #Explicação do resto da história das caves
 
 #Painel de vinificação.
 
 pt3 = """Vamos entender como se dá a vinificação:
-Vindima: Colheita das uvas que se dá normalmente em setembro
+Vindima: Colheita das uvas que se dá normalmente em setembro.
 Transporte à adega: as uvas e a adega ficam na região do vale do douro, a 120 subindo o rio douro. O vinho é trazido à Vila Nova de Gaia apenas para o envelhecimento.
 Desengace: retirada do engaço, parte dos ramos da uva.
 Pisa: Tradicionalmente, as uvas do vinho do Porto eram pisadas por pé humano em lagares de pedra para extrair o suco. Hoje, muitas vinícolas utilizam prensas mecânicas para espremer as uvas.
@@ -26,9 +63,32 @@ Prensa: Após o desengaçamento e, se aplicável, a maceração, as bagas são t
 Transfega: normalmente neste momento o vinho é trazido à Gaia.
 Maturação: O vinho pode envelhecer em diferentes recipientes. Vamos falar mais dessa etapa na próxima parte da visita. Antes de prosseguirmos, chamo a atenção de vocês para as garrafeiras históricas que temos acima de nós. Lá temos vinhos do tipo Vintage, memorizem este nome, pois vamos falar mais dele.
 """
+
+pt3_1 = "Vamos entender como se dá a vinificação:"
+pt3_2 = "Vindima: Colheita das uvas que se dá normalmente em setembro."
+pt3_3 = "Transporte à adega: as uvas e a adega ficam na região do vale do douro, a 120 subindo o rio douro. O vinho é trazido à Vila Nova de Gaia apenas para o envelhecimento."
+pt3_4 = "Desengace: retirada do engaço, parte dos ramos da uva."
+pt3_5 = "Pisa: Tradicionalmente, as uvas do vinho do Porto eram pisadas por pé humano em lagares de pedra para extrair o suco. Hoje, muitas vinícolas utilizam prensas mecânicas para espremer as uvas."
+pt3_6 = "Maceração (Opcional): Em alguns casos, especialmente na produção de vinhos tintos e vinhos rosés, as bagas podem passar por um período de maceração após o desengaçamento. Durante esse período, as bagas são deixadas em contato com as peles para extrair cor, sabor e taninos. Para vinhos brancos, essa etapa é frequentemente omitida, pois o objetivo é produzir um vinho mais claro."
+pt3_7 = "Prensa: Após o desengaçamento e, se aplicável, a maceração, as bagas são transferidas para uma prensa. Existem vários tipos de prensas, desde prensas pneumáticas até prensas hidráulicas, cada uma com suas características específicas. A prensa exerce pressão sobre as bagas, espremendo o suco delas."
+pt3_8 = "Transfega: normalmente neste momento o vinho é trazido à Gaia."
+pt3_9 = "Maturação: O vinho pode envelhecer em diferentes recipientes. Vamos falar mais dessa etapa na próxima parte da visita."
+pt3_10 = "Antes de prosseguirmos, chamo a atenção de vocês para as garrafeiras históricas que temos acima de nós. Lá temos vinhos do tipo Vintage, memorizem este nome, pois vamos falar mais dele."
+
+pt3_list = [pt3_1, pt3_2, pt3_3, pt3_4, pt3_5, pt3_6, pt3_7, pt3_8, pt3_9, pt3_10]
+pt3_audios = ['pt3_1', 'pt3_2', 'pt3_3', 'pt3_4', 'pt3_5', 'pt3_6', 'pt3_7', 'pt3_8', 'pt3_9', 'pt3_10']
+
 #Segunda parte da cave:
 
 pt4 = "Se queremos um vinho com as características da uva como gosto, notas e cor, normalmente o envelhecemos em tanques de inox - mais comum com o vinhos brancos. Se queremos algo que mantenha as características da fruta, mas que ganhe notas amadeiradas o deixamos em grandes balseiros como estes, isso é mais comum entre Rubys. Os vinhos que mais se alteram durante o envelhecimento são aqueles que ficam em pequenos barris. Quanto menor o barril, maior o contato com a madeira e maior a exposição ao oxigénio, pois a madeira é porosa."
+
+pt4_1 = "Se queremos um vinho com as características da uva como gosto, notas e cor, normalmente o envelhecemos em tanques de inox - mais comum com o vinhos brancos."
+pt4_2 = "Se queremos algo que mantenha as características da fruta, mas que ganhe notas amadeiradas o deixamos em grandes balseiros como estes, isso é mais comum entre Rubys."
+pt4_3 = "Os vinhos que mais se alteram durante o envelhecimento são aqueles que ficam em pequenos barris."
+pt4_4 = "Quanto menor o barril, maior o contato com a madeira e maior a exposição ao oxigénio, pois a madeira é porosa."
+
+pt4_list = [pt4_1, pt4_2, pt4_3, pt4_4]
+pt4_audios = ['pt4_1', 'pt4_2', 'pt4_3', 'pt4_4']
 
 #Tubo das cores:
 
@@ -37,6 +97,20 @@ pt5 = """Ainda falando sobre o envelhecimento dos vinhos, é importante que note
 Outro ponto importante é a tipologia dos vinhos do porto. Os vinhos são classificados de acordo com suas cores. White são os brancos, Ruby são aqueles feitos com uvas tintas com cor que recorda à pedra rubi; os Tawny são os vinhos tintos que tornam-se mais “bronzeados”, o que remonta à etimologia da palavra: Tanné/ Tanned.
 Outra forma de classificação é se os vinhos são de um ano único ou de uma mistura de anos. Os vinhos de um ano único são autorizados a serem feitos quando a colheita do ano é especial e depois envelhecidos. Os vinhos de um ano único são: Vintage (o que envelhece na garrafa), LBV (fruto de um ano especial, que não pode ser engarrafado como vintage) e Colheita (tawny envelhecido em cascos de madeira que ganha notas de especiarias).  
 """
+
+pt5_1 = "Ainda falando sobre o envelhecimento dos vinhos, é importante que notem que vinhos brancos e tintos mudam de cor em sentidos opostos."
+pt5_2 = "Devido ao contato com a madeira e com o oxigênio, os vinhos brancos tornam-se cada vez mais escuros, enquanto que os tintos tornam-se cada vez mais claros."
+
+pt5_3 = "Outro ponto importante é a tipologia dos vinhos do porto."
+pt5_4 = "Os vinhos são classificados de acordo com suas cores."
+pt5_5 = "White são os brancos, Ruby são aqueles feitos com uvas tintas com cor que recorda à pedra rubi; os Tawny são os vinhos tintos que tornam-se mais “bronzeados”, o que remonta à etimologia da palavra: Tanné/ Tanned."
+pt5_6 = "Outra forma de classificação é se os vinhos são de um ano único ou de uma mistura de anos."
+pt5_7 = "Os vinhos de um ano único são autorizados a serem feitos quando a colheita do ano é especial e depois envelhecidos."
+pt5_8 = "Os vinhos de um ano único são: Vintage (o que envelhece na garrafa), LBV (fruto de um ano especial, que não pode ser engarrafado como vintage) e Colheita (tawny envelhecido em cascos de madeira que ganha notas de especiarias)."
+
+pt5_list = [pt5_1, pt5_2, pt5_3, pt5_4, pt5_5, pt5_6, pt5_7, pt5_8]
+pt5_audios = ['pt5_1', 'pt5_2', 'pt5_3', 'pt5_4', 'pt5_5', 'pt5_6', 'pt5_7', 'pt5_8']
+
 #varanda
 
 #2 andar:
@@ -44,6 +118,19 @@ Outra forma de classificação é se os vinhos são de um ano único ou de uma m
 #Mapa:
 
 pt6 = "A região onde é feito o cultivo das uvas utilizadas na produção do vinho do porto e do douro é chamada Vale do Douro. É uma região de DOC (denominação de origem controlada) de 200 mil hectares. Há muitas castas de uvas que podem ser utilizadas na produção do vinho do porto. Nós costumamos utilizar 15 brancas e 16 tintas para os nossos vinhos. O vale do douro fornece uvas de boa qualidade devido ao seu microclima. São nove meses de frio e três meses de verão rigoroso. Há montanhas que bloqueiam os ventos e a umidade vindos do atlântico, o que melhora a qualidade das uvas. O solo da região é rico em xisto, uma pedra que além de ajudar a manter a temperatura constante, também serve para drenagem, evitando o acúmulo de água nas raízes das videiras. A quinta do arnozelo tem 200 hectares, dos quais 100 são utilizados para as vinhas."
+
+pt6_1 = "A região onde é feito o cultivo das uvas utilizadas na produção do vinho do porto e do douro é chamada Vale do Douro."
+pt6_2 = "É uma região de DOC (denominação de origem controlada) de 200 mil hectares."
+pt6_3 = "Há muitas castas de uvas que podem ser utilizadas na produção do vinho do porto."
+pt6_4 = "Nós costumamos utilizar 15 brancas e 16 tintas para os nossos vinhos."
+pt6_5 = "O vale do douro fornece uvas de boa qualidade devido ao seu microclima."
+pt6_6 = "São nove meses de frio e três meses de verão rigoroso."
+pt6_7 = "Há montanhas que bloqueiam os ventos e a umidade vindos do atlântico, o que melhora a qualidade das uvas."
+pt6_8 = "O solo da região é rico em xisto, uma pedra que além de ajudar a manter a temperatura constante, também serve para drenagem, evitando o acúmulo de água nas raízes das videiras."
+pt6_9 = "A quinta do arnozelo tem 200 hectares, dos quais 100 são utilizados para as vinhas."
+
+pt6_list = [pt6_1, pt6_2, pt6_3, pt6_4, pt6_5, pt6_6, pt6_7, pt6_8, pt6_9]
+pt6_audios = ['pt6_1', 'pt6_2', 'pt6_3', 'pt6_4', 'pt6_5', 'pt6_6', 'pt6_7', 'pt6_8', 'pt6_9']
 
 
 #Antes de entrar
@@ -199,4 +286,40 @@ Another classification is whether the wines are from a single year or a blend of
 
 en6 = """The region where the cultivation of grapes used in the production of Port wine and Douro wine is called the Douro Valley. It is a DOC (denominação de origem controlada) region of 200,000 hectares. There are many grape varieties that can be used in the production of Port wine. We usually use 15 white and 16 red grape varieties for our wines. The Douro Valley provides good-quality grapes due to its microclimate. There are nine months of cold and three months of rigorous summer. Mountains block winds and moisture from the Atlantic, which improves the quality of grapes. The soil in the region is rich in schist, a stone that not only helps maintain a constant temperature but also serves for drainage, preventing water accumulation in the roots of the vines. Quinta do Arnozelo has 200 hectares, of which 100 are used for vineyards.
 """
+
+
+
+pt_finewhite = "O Fine White tem uma cor cítrica  com tons esverdeados. No nariz é intensamente frutado com aromas florais. Suave no paladar, demonstra grande frescor e equilíbrio. Idealmente servido entre 8 e 10 graus. Pode ser guardado de 4 a 8 meses após aberto."
+es_finewhite = "El Fine White tiene un color cítrico con matices verdosos. En la nariz es intensamente afrutado con aromas florales. Suave en el paladar, muestra una gran frescura y equilibrio. Se sirve mejor entre 8 y 10 grados. Puede guardarse durante 4 a 8 meses después de abierto."
+en_finewhite = "The Fine White has a vibrant citrus color with greenish hues. On the nose, it is intensely fruity with floral aromas. Smooth on the palate, it shows great freshness and balance. Ideally served between 8 and 10 degrees Celsius. Can be stored for 4 to 8 months after opening."
+
+es_jockeyclub = "Color granate con reflejos anaranjados. Nariz amplio y perfumado, con un intenso bouquet de frutos secos, especias, toques de caramelo y una leve nota de tostado. En boca es corpulento y untuoso, con una complejidad que perdura en el final persistente. Conservar durante 2 a 4 meses después de abierto. Servir a una temperatura de 14 a 16 grados."
+pt_jockeyclub = "Cor grená com reflexos alaranjados. Nariz amplo e perfumado, com um intenso bouquet de frutos secos, especiarias, toques de caramelo e uma leve nota de torrefação. Encorpado e untuoso na boca, com complexidade que perdura no final persistente. Conservar por 2 a 4 meses após aberto. Servir à temperatura de 14 a 16 grados."
+en_jockeyclub = "Garnet color with orange reflections. Broad and perfumed nose, with an intense bouquet of dried fruits, spices, hints of caramel, and a light note of toasting. Full-bodied and unctuous on the palate, with complexity that lingers in the persistent finish. Store for 2 to 4 months after opening. Serve at a temperature of 14 to 16 degrees."
+
+es_lbv2019 = "El LBV 2019 tiene un color violeta y presenta un fresco y delicado aroma, donde las notas de frutos silvestres se mezclan con toques balsámicos de eucalipto y menta. En boca, se revela como un vino aterciopelado y corpulento, con notas de frutos silvestres y culminando en un final largo. Se recomienda servirlo entre 16 y 18 grados. Después de abierto, se puede conservar durante 4 a 8 semanas. Sugerimos maridarlo con dulces de chocolate o hojaldres con pera."
+pt_lbv2019 = "O LBV 2019 tem uma cor violeta e apresenta um nariz fresco e delicado, onde as notas de fruta silvestre se mesclam com toques balsâmicos de eucalipto e menta. Na boca, revela-se um vinho aveludado, e corposo, com notas de fruta silvestre e culminando em um final longo. Recomenda-se servi-lo entre 16 e 18 graus. Após aberto, pode ser conservado por 4 a 8 semanas. Sugerimos harmonizá-lo com doces de chocolate ou folhados com pêra."
+en_lbv2019 = "The LBV 2019 has a violet color and presents a fresh and delicate nose, where wild fruit notes blend with balsamic touches of eucalyptus and mint. On the palate, it reveals itself as a velvety and full-bodied wine, with wild fruit notes and culminating in a long finish. It is recommended to serve it between 16 and 18 degrees Celsius. After opening, it can be stored for 4 to 8 weeks. We suggest pairing it with chocolate sweets or puff pastries with pear."
+
+es_tawny10 = "El Tawny de 10 años tiene un color dorado e intenso, con una tonalidad ámbar alrededor. Al olerlo, notarás una mezcla de aromas complejos como frutas secas, almendras y avellanas, con un toque de miel y vainilla. En boca, es refinado y suave, con una elegancia intensa. Sirve entre 14 y 16 grados Celsius. Almacénalo en posición vertical y, una vez abierto, puede durar de 2 a 5 meses. Combínalo con postres como dulces de caramelo o chocolate, foie gras, frutos secos y queso chèvre."
+pt_tawny10 = "O Tawny 10 anos de idade tem uma cor dourada e intensa, com uma tonalidade âmbar ao redor. Ao cheirar, você notará uma mistura de aromas complexos, como frutas secas, amêndoas e avelãs, com um toque de mel e baunilha. No paladar, é refinado e suave, com uma elegância intensa. Sirva-o entre 14 e 16 graus Celsius. Mantenha-o armazenado verticalmente e após aberto, pode durar de 2 a 5 meses. Combine-o com sobremesas como doces de caramelo ou chocolate, foie gras, frutos secos e queijo chèvre."
+en_tawny10 = "The 10-year-old Tawny has a deep, intense golden color with an amber hue around the edges. On the nose, you'll notice a complex blend of aromas such as dried fruits, almonds, and hazelnuts, complemented by hints of honey and vanilla. On the palate, it offers a refined and smooth experience with intense elegance. Serve it between 14 and 16 degrees Celsius. Store it vertically, and once opened, it can last for 2 to 5 months. Pair it with desserts like caramel or chocolate sweets, foie gras, dried fruits, and goat cheese."
+
+
+
+es_vintage2012 = "Este vino presenta un tono rojo rubí con un halo violeta. Al olerlo, te envolverás con un aroma intenso, donde destacan notas de frutas rojas maduras, frescura mentolada y flor de naranjo. Al probarlo, sentirás que la dulzura y los taninos se combinan perfectamente, envueltos en notas de frutas frescas maduras. Termina de manera elegante y sabrosa, demostrando toda la energía y audacia del año 2017. Para disfrutarlo al máximo, sírvelo entre 16 y 18 grados Celsius. Una vez abierto, consúmelo en un plazo de 1 a 2 días. Combínalo con postres como dulces de chocolate, dulces con frutos silvestres y quesos azules."
+pt_vintage2012 = "Este vinho apresenta uma tonalidade vermelho rubi com uma auréola violeta. Ao cheirar, você será envolvido por um aroma intenso, onde se destacam notas de frutas vermelhas maduras, frescor mentolado e flor de laranjeira. Ao provar, sentirá que a doçura e os taninos combinam perfeitamente, envoltos em notas de frutas frescas maduras. Termina de forma elegante e saborosa, demonstrando toda a energia e ousadia do ano de 2017. Para melhor apreciação, sirva entre 16 e 18 graus Celsius. Uma vez aberto, consuma em até 1 a 2 dias. Combine-o com sobremesas como doces de chocolate, doces com frutos silvestres e queijos azuis."
+en_vintage2012 = "This wine presents a ruby ​​red hue with a violet halo. When you smell it, you'll be enveloped by an intense aroma, featuring notes of ripe red fruits, menthol freshness, and orange blossom. When you taste it, you'll find that the sweetness and tannins blend perfectly, wrapped in notes of ripe fresh fruits. It finishes elegantly and tastefully, showcasing all the energy and boldness of the 2017 vintage. For the best experience, serve between 16 and 18 degrees Celsius. Once opened, consume within 1 to 2 days. Pair it with desserts like chocolate sweets, sweets with wild berries, and blue cheeses."
+
+pt_colheita2008 = "O Colheita 2008 tem uma cor avermelhada. Seu aroma é intenso e frutado, com notas de frutas maduras cristalizadas, especiarias e frutos secos. Na boca, é suave, seguindo o estilo característico de uma colheita da Burmester. O final persistente destaca-se pela sua acidez refrescante. Sirva entre 14 e 16 graus Celsius. Armazene verticalmente e, depois de aberto, pode conservar por 2 a 6 meses. Combine-o com doces de caramelo, foie gras, frutos secos e queijos."
+es_colheita2008 = "El Colheita 2008 tiene un color rojizo. Su aroma es intenso y afrutado, con notas de frutas maduras cristalizadas, especias y frutos secos. En boca, es suave, siguiendo el estilo característico de una cosecha de Burmester. El final persistente se destaca por su refrescante acidez. Sirva entre 14 y 16 grados Celsius. Almacene en posición vertical y, una vez abierto, puede conservarse de 2 a 6 meses. Combínelo con dulces de caramelo, foie gras, frutos secos y queso."
+en_colheita2008 = "The 2008 Colheita has a reddish color. Its aroma is intense and fruity, with notes of crystallized ripe fruits, spices, and nuts. On the palate, it is smooth, following the characteristic style of a Burmester harvest. The persistent finish stands out for its refreshing acidity. Serve between 14 and 16 degrees Celsius. Store vertically, and after opening, it can be preserved for 2 to 6 months. Pair it with caramel sweets, foie gras, nuts, and cheese."
+
+pt_tawny20 = "O Tawny 20 anos presenta uma delicada cor aloirada com uma larga auréola ocre. Seu aroma destaca-se por complexas notas de madeira, frutos secos, passas e mel. No paladar, os sabores são muito ricos e concentrados, com um final longo e aveludado. Sirva entre 14 e 16 graus Celsius. Depois de aberto, pode-se conservar de 2 a 5 meses. Combine-o com sobremesas como doces de caramelo ou chocolate, foie gras, frutos secos e queijo chèvre."
+es_tawny20 = "El Tawny de 20 años presenta un delicado color dorado con un amplio halo ocre. Su aroma se caracteriza por notas complejas de madera, frutos secos, pasas y miel. En boca, los sabores son muy ricos y concentrados, con un final largo y aterciopelado. Sirva entre 14 y 16 grados Celsius. Una vez abierto, se puede conservar de 2 a 5 meses. Combínelo con postres como dulces de caramelo o chocolate, foie gras, frutos secos y queso chèvre."
+en_tawny20 = "The 20-year-old Tawny presents a delicate golden hue with a wide ocher halo. Its aroma is characterized by complex notes of wood, nuts, raisins, and honey. On the palate, the flavors are very rich and concentrated, with a long and velvety finish. Serve between 14 and 16 degrees Celsius. Once opened, it can be preserved for 2 to 5 months. Pair it with desserts like caramel or chocolate sweets, foie gras, nuts, and goat cheese."
+
+pt_colheita2002 = "Este vinho apresenta uma profunda cor vermelha com reflexos bronzeados. No nariz, percebemos aromas jovens e vibrantes de framboesas, misturados com notas de frutos secos e nuances de especiarias. Ao provar, ele é delicado, revelando simultaneamente profundidade e amplitude. Equilibrado tem uma boa acidez. O final é longo e persistente. Sirva entre 14 e 16 graus Celsius. Após aberto, pode ser conservado por 2 a 6 meses. Combine-o com sobremesas como doces de caramelo, doces de maçã e gengibre, e frutos secos."
+es_colheita2002 = "Este vino presenta un color rojo profundo con reflejos bronceados. En nariz, percibimos aromas jóvenes y vibrantes de frambuesas, mezclados con notas de frutos secos y matices de especias. Al probarlo, es delicado, revelando simultáneamente profundidad y amplitud. Equilibrado, con una buena acidez. El final es largo y persistente. Sirva entre 14 y 16 grados Celsius. Una vez abierto, se puede conservar durante 2 a 6 meses. Combínelo con postres como dulces de caramelo, dulces de manzana y jengibre, y frutos secos."
+en_colheita2002 = "This wine presents a deep red color with bronzed reflections. On the nose, we perceive young and vibrant aromas of raspberries, mixed with notes of nuts and hints of spices. When tasted, it is delicate, revealing simultaneously depth and breadth. Balanced with good acidity. The finish is long and persistent. Serve between 14 and 16 degrees Celsius. Once opened, it can be preserved for 2 to 6 months. Pair it with desserts like caramel sweets, apple and ginger sweets, and nuts."
 
