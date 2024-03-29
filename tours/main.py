@@ -8,7 +8,7 @@ from scripts import *
 def sentences(sent, names):
     for i in range(len(sent)):
         st.write(sent[i])
-        st.audio(f'{names[i]}.mp3')
+        st.audio(f'tours/{names[i]}.mp3')
 
 #cmd = ["edge-tts", "--rate=-15%" , "--voice", "nl-NL-MaartenNeural", "--text", i, "--write-media", f"audios/{count}.mp3"]
 
@@ -27,7 +27,7 @@ if selected_lang == 'Português':
         st.write(pt1)
        #cmd = ["edge-tts", "--voice", "pt-BR-AntonioNeural", "--text", pt1, "--write-media", f"pt1.mp3"]
         ##subprocess.run(cmd)
-        st.audio("pt1.mp3")
+        st.audio("tours/pt1.mp3")
         
         with st.expander('Frases'):
             sentences(pt1_list, pt1_audios)
@@ -36,7 +36,7 @@ if selected_lang == 'Português':
         st.write(pt2)
        #cmd = ["edge-tts", "--voice", "pt-BR-AntonioNeural", "--text", pt2, "--write-media", f"pt2.mp3"]
         ##subprocess.run(cmd)
-        st.audio("pt2.mp3")
+        st.audio("tours/pt2.mp3")
         
         with st.expander('Frases'):
             sentences(pt2_list, pt2_audios)
@@ -45,7 +45,7 @@ if selected_lang == 'Português':
         st.write(pt3)
        #cmd = ["edge-tts", "--voice", "pt-BR-AntonioNeural", "--text", pt3, "--write-media", f"pt3.mp3"]
         ##subprocess.run(cmd)
-        st.audio("pt3.mp3")
+        st.audio("tours/pt3.mp3")
         
         with st.expander('Frases'):
             sentences(pt3_list, pt3_audios)
@@ -54,7 +54,7 @@ if selected_lang == 'Português':
         st.write(pt4)
        #cmd = ["edge-tts", "--voice", "pt-BR-AntonioNeural", "--text", pt4, "--write-media", f"pt4.mp3"]
         ##subprocess.run(cmd)
-        st.audio("pt4.mp3")
+        st.audio("tours/pt4.mp3")
         
         with st.expander('Frases'):
             sentences(pt4_list, pt4_audios)
@@ -63,7 +63,7 @@ if selected_lang == 'Português':
         st.write(pt5)
        #cmd = ["edge-tts", "--voice", "pt-BR-AntonioNeural", "--text", pt5, "--write-media", f"pt5.mp3"]
         ##subprocess.run(cmd)
-        st.audio("pt5.mp3")
+        st.audio("tours/pt5.mp3")
         
         with st.expander('Frases'):
             sentences(pt5_list, pt5_audios)
@@ -72,7 +72,7 @@ if selected_lang == 'Português':
         st.write(pt6)
        #cmd = ["edge-tts", "--voice", "pt-BR-AntonioNeural", "--text", pt6, "--write-media", f"pt6.mp3"]
         ##subprocess.run(cmd)
-        st.audio("pt6.mp3")
+        st.audio("tours/pt6.mp3")
 
         with st.expander('Frases'):
             sentences(pt6_list, pt6_audios)
